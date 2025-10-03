@@ -1,5 +1,26 @@
-*~
-src/build
-src/bin
-src/objs
-.sconsign.dblite
+# Compilaci?n / IDE
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+*.dir/
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.log
+/.vs/
+.vscode/
+
+# Salidas y temporales
+out/
+*.tmp
+*.bak
+
+# Archivos de usuario
+*.user
+*.suo
